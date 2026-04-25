@@ -8,7 +8,7 @@ Leverages SolidWorks COM API and Python for automated modeling. Enables assembly
 
 (1) main.py为主程序;
 
-(2) 使用前请先确保存在零件文件(.SLDPRT)与该零件捆绑的装配体文件(.SLDASM)存在目标文件夹，其中零件的目标文件夹在变量SLDPRT_Dir上，装配体的目标文件夹在变量SLDASM_files_Dir上;
+(2) 使用前请先确保零件文件(.SLDPRT)与该零件捆绑的装配体文件(.SLDASM)在目标文件夹，其中零件的目标文件夹在变量SLDPRT_Dir上，装配体的目标文件夹在变量SLDASM_files_Dir上;
 
 (3) 使用前应当将变量Planindex、Componentindex、Global_Parameter、Global_Parameter_list、SLDPRT_Filesname、SLDPRT_Dir、SLDASM_files_Dir、Output_STEP_Dir重新根据自己的需求进行填写。
 
